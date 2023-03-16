@@ -18,7 +18,7 @@ enum NetworkError: String, Error {
 
 class ViewController: UIViewController {
     
-   // changes for main
+   // after push
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         
     }
     
-    
+    // method to get Comments 
     func getData(with url: URL, completion: @escaping (Result<[Comment], NetworkError>) -> Void )  {
       
         
